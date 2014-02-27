@@ -31,7 +31,7 @@ public class SchedulingPatternTest {
     String pattern;
     pattern="0 5 * * *|8 10 * * *|22 17 * * *";
     assertTrue(pattern + "is correct", SchedulingPattern.validate(pattern));
-    pattern="0 5 * *";
+    pattern="0 5 * * *";
     assertTrue(pattern + "is correct", SchedulingPattern.validate(pattern));
   }
 }
