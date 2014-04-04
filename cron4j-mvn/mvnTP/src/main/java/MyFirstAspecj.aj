@@ -1,3 +1,13 @@
+package it.sauronsoftware;
+import it.sauronsoftware.cron4j.Task;
+import it.sauronsoftware.cron4j.TaskExecutionContext;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.concurrent.atomic.AtomicLong;
+
 public aspect MyFirstAspecj{
     public static final Logger LOGGER = LoggerFactory.getLogger(MyAspectTrace.class);
 
